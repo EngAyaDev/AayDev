@@ -1,0 +1,147 @@
+﻿*{
+margin:0;
+padding:0;
+}
+header{
+    width:100%;
+    height:70px;
+    background-color:white;
+    box-shadow: 0px 0px 12px powderblue;
+    position: fixed;
+    z-index:1;
+
+} 
+header button{
+    width:140px;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    background:none;
+    outline:none;
+    font-size:18px;
+    box-shadow:0px 0px 8px #b200ff;
+    font-weight:blod;
+    transition:1s;
+}
+header button:hover{
+    color:#07689f;
+    box-shadow:0px 0px 15px silver
+}
+    header img {
+        width: 100px;
+        float:left;
+        margin-top:5px;
+        margin-left:7px;
+    }
+
+    #imo1{
+        width:100%;
+        height:100px;
+   
+    }
+
+    marquee{
+        position:absolute;
+        top:170px;
+        left:400px;
+        color:blueviolet;
+        text-align:center;
+        font-size:38px;
+        width:400px;
+        height:200px
+    }
+aside{
+    width:13%;
+    height:400px;
+    background:white;
+    float:right;
+    margin-top:-5px;
+}
+aside button{ 
+    width: 100%
+}
+aside button{
+    height:50px;
+    font-size:18px;
+    font-weight:bold;
+    background:none;
+    border:none;
+    border-bottom:1px solid;
+    border-left:1px solid;
+    outline:none;
+    transition:1s;
+}
+aside button:hover{
+    color:white;
+    background-color:deeppink;
+}
+main{
+    width:87%;
+    height:400px;
+    background:white;
+    margin-top:-4px;
+    margin-top:left;
+}
+main h2{
+    font-size:35px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:20px;
+}
+main img{
+    width:90px;
+    margin-top:20px;
+}
+
+
+main p{
+
+    font-size:25px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blueviolet;
+    margin-top:60px;
+    margin:30px;
+
+}
+#d1 div {
+    width: 274px;
+    height: 420px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 0px 12px white;
+    float: left;
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius: 12px;
+}
+#d2 footer{
+    width:100%;
+    height:400px;        
+    background-color:#000000;
+    margin-top:1000px;
+    clear:both;
+    box-shadow: 0px 0px 0px 40px white;
+}
+footer div{
+    width:100%;
+    height:400px;
+    font-size:22px;
+    margin-top:10px;
+    font-weight: bold;
+    text-align:left;
+    background-color:white;
+    margin-left:85px;
+    color:#000000;
+    float:left;
+}
+footer div a{
+    text-decoration: none;
+}
+
+footer div a:hover{
+    color:aqua;
+}
+
+
